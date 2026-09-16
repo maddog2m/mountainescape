@@ -75,7 +75,7 @@ export const dict = {
   "label.all": { mk: "Сите", en: "All" },
 
   "home.hero.title": {
-    mk: "Излези од обичното. Открий ги планините.",
+    mk: "Излези од обичното. Откриј ги планините.",
     en: "Escape the Ordinary. Discover the Mountains.",
   },
   "home.hero.subtitle": {
@@ -254,7 +254,7 @@ export const dict = {
 
   "membership.hero.title": { mk: "Членство", en: "Membership" },
   "membership.hero.subtitle": {
-    mk: "Стани дел од The Mountain Escape и планинарь со заедница која те чека на секој старт.",
+    mk: "Стани дел од The Mountain Escape и планинари со заедница која те чека на секој старт.",
     en: "Become part of The Mountain Escape and hike with a community that waits for you at every trailhead.",
   },
   "membership.benefits.title": { mk: "Придобивки од членството", en: "Membership benefits" },
