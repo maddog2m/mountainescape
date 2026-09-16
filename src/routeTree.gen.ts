@@ -10,33 +10,128 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as SplatRouteImport } from './routes/$'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as EventsRouteImport } from './routes/events'
+import { Route as GalleryRouteImport } from './routes/gallery'
+import { Route as TeamRouteImport } from './routes/team'
+import { Route as ToursIndexRouteImport } from './routes/tours.index'
+import { Route as ToursSlugRouteImport } from './routes/tours.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SplatRoute = SplatRouteImport.update({
+  id: '/$',
+  path: '/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EventsRoute = EventsRouteImport.update({
+  id: '/events',
+  path: '/events',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GalleryRoute = GalleryRouteImport.update({
+  id: '/gallery',
+  path: '/gallery',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TeamRoute = TeamRouteImport.update({
+  id: '/team',
+  path: '/team',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ToursIndexRoute = ToursIndexRouteImport.update({
+  id: '/tours/',
+  path: '/tours/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ToursSlugRoute = ToursSlugRouteImport.update({
+  id: '/tours/$slug',
+  path: '/tours/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
+  '/about': typeof AboutRoute
+  '/events': typeof EventsRoute
+  '/gallery': typeof GalleryRoute
+  '/team': typeof TeamRoute
+  '/tours/$slug': typeof ToursSlugRoute
+  '/tours/': typeof ToursIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
+  '/about': typeof AboutRoute
+  '/events': typeof EventsRoute
+  '/gallery': typeof GalleryRoute
+  '/team': typeof TeamRoute
+  '/tours/$slug': typeof ToursSlugRoute
+  '/tours': typeof ToursIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
+  '/about': typeof AboutRoute
+  '/events': typeof EventsRoute
+  '/gallery': typeof GalleryRoute
+  '/team': typeof TeamRoute
+  '/tours/$slug': typeof ToursSlugRoute
+  '/tours/': typeof ToursIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/$'
+    | '/about'
+    | '/events'
+    | '/gallery'
+    | '/team'
+    | '/tours/$slug'
+    | '/tours/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/$'
+    | '/about'
+    | '/events'
+    | '/gallery'
+    | '/team'
+    | '/tours/$slug'
+    | '/tours'
+  id:
+    | '__root__'
+    | '/'
+    | '/$'
+    | '/about'
+    | '/events'
+    | '/gallery'
+    | '/team'
+    | '/tours/$slug'
+    | '/tours/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  SplatRoute: typeof SplatRoute
+  AboutRoute: typeof AboutRoute
+  EventsRoute: typeof EventsRoute
+  GalleryRoute: typeof GalleryRoute
+  TeamRoute: typeof TeamRoute
+  ToursSlugRoute: typeof ToursSlugRoute
+  ToursIndexRoute: typeof ToursIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +143,67 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$': {
+      id: '/$'
+      path: '/$'
+      fullPath: '/$'
+      preLoaderRoute: typeof SplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/events': {
+      id: '/events'
+      path: '/events'
+      fullPath: '/events'
+      preLoaderRoute: typeof EventsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gallery': {
+      id: '/gallery'
+      path: '/gallery'
+      fullPath: '/gallery'
+      preLoaderRoute: typeof GalleryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/team': {
+      id: '/team'
+      path: '/team'
+      fullPath: '/team'
+      preLoaderRoute: typeof TeamRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tours/': {
+      id: '/tours/'
+      path: '/tours'
+      fullPath: '/tours/'
+      preLoaderRoute: typeof ToursIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tours/$slug': {
+      id: '/tours/$slug'
+      path: '/tours/$slug'
+      fullPath: '/tours/$slug'
+      preLoaderRoute: typeof ToursSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  SplatRoute: SplatRoute,
+  AboutRoute: AboutRoute,
+  EventsRoute: EventsRoute,
+  GalleryRoute: GalleryRoute,
+  TeamRoute: TeamRoute,
+  ToursSlugRoute: ToursSlugRoute,
+  ToursIndexRoute: ToursIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
