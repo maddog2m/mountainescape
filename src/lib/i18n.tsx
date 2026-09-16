@@ -429,11 +429,40 @@ export function useI18n(): I18nValue {
   return ctx;
 }
 
+const monthNames: Record<Lang, string[]> = {
+  mk: [
+    "јануари",
+    "февруари",
+    "март",
+    "април",
+    "мај",
+    "јуни",
+    "јули",
+    "август",
+    "септември",
+    "октомври",
+    "ноември",
+    "декември",
+  ],
+  en: [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ],
+};
+
+/** Deterministic on server and client — no Intl locale data required. */
 export function formatDate(iso: string, lang: Lang): string {
-  const date = new Date(`${iso}T00:00:00`);
-  return date.toLocaleDateString(lang === "mk" ? "mk-MK" : "en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
+  const [year, month, day] = iso.split("-").map((part) => Number(part));
+  const name = monthNames[lang][(month ?? 1) - 1];
+  return lang === "mk" ? `${day} ${name} ${year}` : `${day} ${name} ${year}`;
 }
