@@ -23,21 +23,21 @@ export const team: Member[] = [
     role: { mk: "Основач и планински водич", en: "Founder & Mountain Guide" },
     years: 18,
     bio: {
-      mk: "Аleksandar основа The Mountain Escape во 2018 година по повеќе од десет години самостојно планинарење. Води сите наши вишински експедиции и е одговорен за безбедносните протоколи.",
+      mk: "Аleksandar го основа Mountain Escape во 2018 година по повеќе од десет години самостојно планинарење. Тој ги води сите наши висински експедиции и е одговорен за безбедносните протоколи.",
       en: "Aleksandar founded The Mountain Escape in 2018 after more than a decade of solo hiking. He leads all our high-altitude expeditions and owns our safety protocols.",
     },
     specialties: {
-      mk: ["Вишинско планинарење", "Планинска навигација", "Безбедност на отворено"],
+      mk: ["Висинско планинарење", "Планинска навигација", "Безбедност на отворено"],
       en: ["High-altitude hiking", "Mountain navigation", "Outdoor safety"],
     },
   },
   {
     name: "Elena Markovska",
     image: elena,
-    role: { mk: "Планинарски водич", en: "Hiking Guide" },
+    role: { mk: "Планински водич", en: "Hiking Guide" },
     years: 9,
     bio: {
-      mk: "Елена ги води нашите планинарења за почетници и семејства. Има сертификат за прва помош во дивина и особено ги сака утринските искачувања.",
+      mk: "Елена ги води нашите планинарења за почетници и семејства. Има сертификат за прва помош  во планински услови и особено ги сака утринските искачувања.\n",
       en: "Elena leads our beginner and family hikes. She holds a wilderness first aid certificate and has a special love for sunrise ascents.",
     },
     specialties: {
@@ -51,7 +51,7 @@ export const team: Member[] = [
     role: { mk: "Планински водич", en: "Mountain Guide" },
     years: 12,
     bio: {
-      mk: "Стефан е специјалист за зимско планинарење и искачувања во национални паркови. Го снима и одржува нашиот регистар на GPS маршрути.",
+      mk: "Стефан е специјалист за зимско планинарење и искачувања во национални паркови.",
       en: "Stefan specialises in winter hiking and national park ascents. He records and maintains our register of GPS routes.",
     },
     specialties: {
