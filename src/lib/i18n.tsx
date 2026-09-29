@@ -34,7 +34,7 @@ export const dict = {
   "nav.closeMenu": { mk: "Затвори мени", en: "Close menu" },
   "nav.language": { mk: "Јазик", en: "Language" },
 
-  "cta.joinUs": { mk: "Придружи се", en: "Join Us" },
+  "cta.joinUs": { mk: "Придружи ни се", en: "Join Us" },
   "cta.exploreTours": { mk: "Разгледај планинарења", en: "Explore Tours" },
   "cta.viewDetails": { mk: "Види детали", en: "View Details" },
   "cta.learnMore": { mk: "Прочитај повеќе", en: "Learn More" },
@@ -75,14 +75,14 @@ export const dict = {
   "label.all": { mk: "Сите", en: "All" },
 
   "home.hero.title": {
-    mk: "Излези од обичното. Откриј ги планините.",
+    mk: "Тргни по патеката.\nОткриј ги планините.\n",
     en: "Escape the Ordinary. Discover the Mountains.",
   },
   "home.hero.subtitle": {
-    mk: "Истражувај восхитувачки патеки, запознај нови луѓе и доживеј незаборавни авантури со The Mountain Escape.",
+    mk: "Планинариме по некои од најубавите планински патеки во Македонија, запознаваме нови луѓе и уживаме во времето поминато во природа.\n\nПридружи ни се на следната авантура.",
     en: "Explore breathtaking trails, meet new people and experience unforgettable adventures with The Mountain Escape.",
   },
-  "home.hero.badge": { mk: "Скопје, Северна Македонија", en: "Skopje, North Macedonia" },
+  "home.hero.badge": { mk: "СКОПЈЕ, МАКЕДОНИЈА", en: "Skopje, North Macedonia" },
   "home.stats.hikes": { mk: "организирани планинарења", en: "organized hikes" },
   "home.stats.participants": { mk: "учесници", en: "participants" },
   "home.stats.destinations": { mk: "планински дестинации", en: "mountain destinations" },
