@@ -30,7 +30,7 @@ export const timeline: { year: string; text: Localized }[] = [
     year: "2018",
     text: {
       mk: "Основана е заедницата Mountain Escape од група пријатели од Скопје.",
-      en: "The Mountain Escape community was founded by a group of friends from Skopje.",
+      en: "Mountain Escape was founded as a community by a group of friends from Skopje.",
     },
   },
   {

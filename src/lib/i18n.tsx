@@ -169,7 +169,7 @@ export const dict = {
   "about.eco.title": { mk: "Одговорност кон природата", en: "Environmental responsibility" },
   "about.eco.text": {
     mk: "Работиме по принципот „Не оставај позади себе“. Секоја година организираме најмалку четири акции за чистење на планински патеки и соработуваме со националните паркови.",
-    en: "We follow the Leave No Trace principle. Every year we organize at least four trail clean-up actions and cooperate with the national parks.",
+    en: "We follow the principle of leaving nothing behind. Every year we organize at least four trail clean-up actions and cooperate with the national parks.",
   },
   "about.philosophy.title": { mk: "Наша планинарска филозофија", en: "Our hiking philosophy" },
   "about.philosophy.text": {
