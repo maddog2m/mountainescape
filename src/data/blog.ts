@@ -192,7 +192,7 @@ export const blogPosts: BlogPost[] = [
     image: galicica,
     title: {
       mk: "5 прекрасни планинарски патеки во Македонија",
-      en: "5 Beautiful Hiking Trails in North Macedonia",
+      en: "5 Beautiful Hiking Trails in Macedonia",
     },
     excerpt: {
       mk: "Од Матка до Галичица — пет патеки што ги препорачуваме на секој планинар.",
@@ -204,7 +204,7 @@ export const blogPosts: BlogPost[] = [
     readMinutes: 7,
     intro: {
       mk: "Македонија има повеќе од 30 планини над 2.000 метри. Овие пет патеки ги избравме заради разновидноста, а не само заради висината.",
-      en: "North Macedonia has more than 30 mountains above 2,000 metres. We chose these five trails for their variety, not only their altitude.",
+      en: "Macedonia has more than 30 mountains above 2,000 metres. We chose these five trails for their variety, not only their altitude.",
     },
     sections: [
       {
@@ -305,7 +305,7 @@ export const blogPosts: BlogPost[] = [
             "Исчисти ги од кал по секое планинарење и суши ги на воздух, никогаш на радијатор.",
           ],
           en: [
-            "Clean off the mud after every hike and dry them in the air, never on a radiator. Re-proof them at the start of every season.",
+            "Clean off the mud after every hike and dry them in the air, never on a radiator.",
           ],
         },
       },

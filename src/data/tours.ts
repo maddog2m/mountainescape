@@ -181,7 +181,7 @@ export const tours: Tour[] = [
     guide: "Aleksandar Petrov",
     short: {
       mk: "Искачување на највисокиот врв во Македонија — 2.764 метри.",
-      en: "An ascent of the highest peak in North Macedonia — 2,764 metres.",
+      en: "An ascent of the highest peak in Macedonia — 2,764 metres.",
     },
     about: {
       mk: [

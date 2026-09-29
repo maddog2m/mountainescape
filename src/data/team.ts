@@ -24,7 +24,7 @@ export const team: Member[] = [
     years: 18,
     bio: {
       mk: "Аleksandar го основа Mountain Escape во 2018 година по повеќе од десет години самостојно планинарење. Тој ги води сите наши висински експедиции и е одговорен за безбедносните протоколи.",
-      en: "Aleksandar founded The Mountain Escape in 2018 after more than a decade of solo hiking. He leads all our high-altitude expeditions and owns our safety protocols.",
+      en: "Aleksandar founded Mountain Escape in 2018 after more than a decade of solo hiking. He leads all our high-altitude expeditions and is responsible for our safety protocols.",
     },
     specialties: {
       mk: ["Висинско планинарење", "Планинска навигација", "Безбедност на отворено"],
@@ -34,11 +34,11 @@ export const team: Member[] = [
   {
     name: "Elena Markovska",
     image: elena,
-    role: { mk: "Планински водич", en: "Hiking Guide" },
+    role: { mk: "Планински водич", en: "Mountain Guide" },
     years: 9,
     bio: {
       mk: "Елена ги води нашите планинарења за почетници и семејства. Има сертификат за прва помош  во планински услови и особено ги сака утринските искачувања.\n",
-      en: "Elena leads our beginner and family hikes. She holds a wilderness first aid certificate and has a special love for sunrise ascents.",
+      en: "Elena leads our beginner and family hikes. She holds a first aid certificate for mountain environments and has a special love for sunrise ascents.",
     },
     specialties: {
       mk: ["Прва помош", "Планинарења за почетници", "Планирање на патеки"],
@@ -52,7 +52,7 @@ export const team: Member[] = [
     years: 12,
     bio: {
       mk: "Стефан е специјалист за зимско планинарење и искачувања во национални паркови.",
-      en: "Stefan specialises in winter hiking and national park ascents. He records and maintains our register of GPS routes.",
+      en: "Stefan specialises in winter hiking and national park ascents.",
     },
     specialties: {
       mk: ["Зимско планинарење", "Планинска навигација", "Национални паркови"],
