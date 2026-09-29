@@ -88,13 +88,13 @@ export const dict = {
   "home.stats.destinations": { mk: "планински дестинации", en: "mountain destinations" },
   "home.stats.guides": { mk: "искусни водичи", en: "experienced guides" },
   "home.about.eyebrow": { mk: "За нас", en: "About us" },
-  "home.about.title": { mk: "За The Mountain Escape", en: "About The Mountain Escape" },
+  "home.about.title": { mk: "За Mountain Escape", en: "About The Mountain Escape" },
   "home.about.body1": {
-    mk: "The Mountain Escape е планинарско друштво посветено на активности на отворено, истражување на планините, здрав начин на живот и поврзување на луѓето преку природата.",
+    mk: "Mountain Escape е планинарско друштво посветено на активности на отворено, истражување на планините, здрав начин на живот и поврзување на луѓето преку природата.",
     en: "The Mountain Escape is a hiking and mountaineering organization dedicated to outdoor activities, mountain exploration, healthy lifestyles and connecting people through nature.",
   },
   "home.about.body2": {
-    mk: "Од 2018 година организираме безбедни, добро подготвени планинарења по целата територија на Северна Македонија — од утрински искачувања на Водно до вишински експедиции на Кораб.",
+    mk: "Од 2018 година организираме безбедни, добро подготвени планинарења по целата територија на Македонија — од утрински искачувања на Водно до висински експедиции на Кораб.",
     en: "Since 2018 we have been organizing safe, well-prepared hikes across North Macedonia — from sunrise walks on Vodno to high-altitude expeditions on Korab.",
   },
   "home.tours.eyebrow": { mk: "Планинарења", en: "Hiking tours" },
@@ -127,7 +127,7 @@ export const dict = {
   },
   "home.why.levels.title": { mk: "Авантури за секое ниво", en: "Adventures for different skill levels" },
   "home.why.levels.text": {
-    mk: "Од лесни семејни прошетки до напредни вишински искачувања.",
+    mk: "Од лесни семејни прошетки до напредни висински искачувања.",
     en: "From easy family walks to advanced high-altitude ascents.",
   },
   "home.why.places.title": { mk: "Прекрасни дестинации", en: "Beautiful destinations" },
