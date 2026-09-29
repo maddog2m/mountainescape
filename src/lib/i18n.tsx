@@ -16,7 +16,7 @@ const STORAGE_KEY = "tme-lang";
 
 export const dict = {
   "brand.tagline": {
-    mk: "Планинарско друштво",
+    mk: "\n",
     en: "Hiking & mountaineering club",
   },
 

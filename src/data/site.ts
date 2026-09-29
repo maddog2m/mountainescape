@@ -1,7 +1,7 @@
 import type { Localized } from "@/lib/i18n";
 
 export const site = {
-  name: "The Mountain Escape",
+  name: "Mountain Escape",
   phone: "+389 70 123 456",
   phoneHref: "tel:+38970123456",
   email: "hello@themountainescape.mk",
