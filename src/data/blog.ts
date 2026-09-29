@@ -203,7 +203,7 @@ export const blogPosts: BlogPost[] = [
     category: "destinations",
     readMinutes: 7,
     intro: {
-      mk: "Северна Македонија има повеќе од 30 планини над 2.000 метри. Овие пет патеки ги избравме заради разновидноста, а не само заради висината.",
+      mk: "Македонија има повеќе од 30 планини над 2.000 метри. Овие пет патеки ги избравме заради разновидноста, а не само заради висината.",
       en: "North Macedonia has more than 30 mountains above 2,000 metres. We chose these five trails for their variety, not only their altitude.",
     },
     sections: [
@@ -234,7 +234,7 @@ export const blogPosts: BlogPost[] = [
         heading: { mk: "Кога да одиш", en: "When to go" },
         paragraphs: {
           mk: [
-            "Мај и јуни носат најмногу зеленило и водени текови, септември и октомври најстабилно време и најчисти видици. Вишинските врвови се сигурни од јуни до октомври.",
+            "Мај и јуни носат најмногу зеленило и водени текови, септември и октомври најстабилно време и најчисти видици. Висинските врвови се сигурни од јуни до октомври.",
           ],
           en: [
             "May and June bring the most greenery and running water; September and October bring the most stable weather and clearest views. High summits are reliable from June to October.",
