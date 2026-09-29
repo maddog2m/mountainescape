@@ -302,7 +302,7 @@ export const blogPosts: BlogPost[] = [
         heading: { mk: "Одржување", en: "Care" },
         paragraphs: {
           mk: [
-            "Исчисти ги од кал по секое планинарење и суши ги на воздух, никогаш на радијатор. Импрегнирај ги на почетокот на секоја сезона.",
+            "Исчисти ги од кал по секое планинарење и суши ги на воздух, никогаш на радијатор.",
           ],
           en: [
             "Clean off the mud after every hike and dry them in the air, never on a radiator. Re-proof them at the start of every season.",
