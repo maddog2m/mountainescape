@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
     slug: "beautiful-hiking-trails-in-north-macedonia",
     image: galicica,
     title: {
-      mk: "5 прекрасни планинарски патеки во Северна Македонија",
+      mk: "5 прекрасни планинарски патеки во Македонија",
       en: "5 Beautiful Hiking Trails in North Macedonia",
     },
     excerpt: {
