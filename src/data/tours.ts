@@ -180,7 +180,7 @@ export const tours: Tour[] = [
     meetingPoint: { mk: "Стрезимир, влез во НП Маврово", en: "Strezimir, entrance to Mavrovo NP" },
     guide: "Aleksandar Petrov",
     short: {
-      mk: "Искачување на највисокиот врв во Северна Македонија — 2.764 метри.",
+      mk: "Искачување на највисокиот врв во Македонија — 2.764 метри.",
       en: "An ascent of the highest peak in North Macedonia — 2,764 metres.",
     },
     about: {
