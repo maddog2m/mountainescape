@@ -6,7 +6,7 @@ export const site = {
   phoneHref: "tel:+38970123456",
   email: "hello@themountainescape.mk",
   emailHref: "mailto:hello@themountainescape.mk",
-  city: { mk: "Скопје, Македонија", en: "Skopje, North Macedonia" } as Localized,
+  city: { mk: "Скопје, Македонија", en: "Skopje, Macedonia" } as Localized,
   address: {
     mk: "ул. Македонија 12, 1000 Скопје",
     en: "Makedonija St. 12, 1000 Skopje",
@@ -30,7 +30,7 @@ export const timeline: { year: string; text: Localized }[] = [
     year: "2018",
     text: {
       mk: "Основана е заедницата Mountain Escape од група пријатели од Скопје.",
-      en: "The Mountain Escape community was founded by a group of friends from Skopje.",
+      en: "Mountain Escape was founded as a community by a group of friends from Skopje.",
     },
   },
   {
@@ -51,14 +51,14 @@ export const timeline: { year: string; text: Localized }[] = [
     year: "2023",
     text: {
       mk: "Ја проширивме програмата на планинарења во цела Македонија.",
-      en: "We expanded our tours across the whole of North Macedonia.",
+      en: "We expanded our hiking programme across Macedonia.",
     },
   },
   {
     year: "2025",
     text: {
       mk: "Воведовме напредни висински експедиции, меѓу кои и Кораб и Солунска Глава.",
-      en: "We introduced advanced mountain expeditions, including Korab and Solunska Glava.",
+      en: "We introduced advanced high-altitude expeditions, including Korab and Solunska Glava.",
     },
   },
   {

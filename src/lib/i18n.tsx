@@ -17,7 +17,7 @@ const STORAGE_KEY = "tme-lang";
 export const dict = {
   "brand.tagline": {
     mk: "\n",
-    en: "Hiking & mountaineering club",
+    en: "\n",
   },
 
   "nav.home": { mk: "Дома", en: "Home" },
@@ -76,26 +76,26 @@ export const dict = {
 
   "home.hero.title": {
     mk: "Тргни по патеката.\nОткриј ги планините.\n",
-    en: "Escape the Ordinary. Discover the Mountains.",
+    en: "Hit the Trail.\nDiscover the Mountains.\n",
   },
   "home.hero.subtitle": {
     mk: "Планинариме по некои од најубавите планински патеки во Македонија, запознаваме нови луѓе и уживаме во времето поминато во природа.\n\nПридружи ни се на следната авантура.",
-    en: "Explore breathtaking trails, meet new people and experience unforgettable adventures with The Mountain Escape.",
+    en: "We hike some of Macedonia’s most beautiful mountain trails, meet new people and enjoy time in nature.\n\nJoin us on our next adventure.",
   },
-  "home.hero.badge": { mk: "СКОПЈЕ, МАКЕДОНИЈА", en: "Skopje, North Macedonia" },
+  "home.hero.badge": { mk: "СКОПЈЕ, МАКЕДОНИЈА", en: "SKOPJE, MACEDONIA" },
   "home.stats.hikes": { mk: "организирани планинарења", en: "organized hikes" },
   "home.stats.participants": { mk: "учесници", en: "participants" },
   "home.stats.destinations": { mk: "планински дестинации", en: "mountain destinations" },
   "home.stats.guides": { mk: "искусни водичи", en: "experienced guides" },
   "home.about.eyebrow": { mk: "За нас", en: "About us" },
-  "home.about.title": { mk: "За Mountain Escape", en: "About The Mountain Escape" },
+  "home.about.title": { mk: "За Mountain Escape", en: "About Mountain Escape" },
   "home.about.body1": {
     mk: "Mountain Escape е планинарско друштво посветено на активности на отворено, истражување на планините, здрав начин на живот и поврзување на луѓето преку природата.",
-    en: "The Mountain Escape is a hiking and mountaineering organization dedicated to outdoor activities, mountain exploration, healthy lifestyles and connecting people through nature.",
+    en: "Mountain Escape is a hiking and mountaineering organization dedicated to outdoor activities, mountain exploration, healthy lifestyles and connecting people through nature.",
   },
   "home.about.body2": {
     mk: "Од 2018 година организираме безбедни, добро подготвени планинарења по целата територија на Македонија — од утрински искачувања на Водно до висински експедиции на Кораб.",
-    en: "Since 2018 we have been organizing safe, well-prepared hikes across North Macedonia — from sunrise walks on Vodno to high-altitude expeditions on Korab.",
+    en: "Since 2018 we have been organizing safe, well-prepared hikes across Macedonia — from sunrise walks on Vodno to high-altitude expeditions on Korab.",
   },
   "home.tours.eyebrow": { mk: "Планинарења", en: "Hiking tours" },
   "home.tours.title": { mk: "Избрани планинарења", en: "Featured Hiking Tours" },
@@ -157,7 +157,7 @@ export const dict = {
   "about.vision.title": { mk: "Визија", en: "Vision" },
   "about.vision.text": {
     mk: "Да станеме најдоверливата планинарска заедница во Македонија — место каде секој почетник ќе најде водич, а секој искусен планинар ново предизвикувачко искачување.",
-    en: "To become the most trusted hiking community in North Macedonia — a place where every beginner finds a guide and every experienced hiker finds a new challenge.",
+    en: "To become the most trusted hiking community in Macedonia — a place where every beginner finds a guide and every experienced hiker finds a new challenge.",
   },
   "about.timeline.title": { mk: "Патот досега", en: "Our journey so far" },
   "about.values.title": { mk: "Наши вредности", en: "Our values" },
@@ -169,7 +169,7 @@ export const dict = {
   "about.eco.title": { mk: "Одговорност кон природата", en: "Environmental responsibility" },
   "about.eco.text": {
     mk: "Работиме по принципот „Не оставај позади себе“. Секоја година организираме најмалку четири акции за чистење на планински патеки и соработуваме со националните паркови.",
-    en: "We follow the Leave No Trace principle. Every year we organize at least four trail clean-up actions and cooperate with the national parks.",
+    en: "We follow the principle of leaving nothing behind. Every year we organize at least four trail clean-up actions and cooperate with the national parks.",
   },
   "about.philosophy.title": { mk: "Наша планинарска филозофија", en: "Our hiking philosophy" },
   "about.philosophy.text": {
@@ -333,7 +333,7 @@ export const dict = {
 
   "cookies.text": {
     mk: " Kористиме колачиња за подобрување на вашето корисничко искуство.",
-    en: "We use cookies to improve your browsing experience.",
+    en: "We use cookies to improve your user experience.",
   },
   "cookies.acceptAll": { mk: "Прифати сите", en: "Accept All" },
   "cookies.necessary": { mk: "Само неопходни", en: "Necessary Only" },
