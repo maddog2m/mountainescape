@@ -6,7 +6,7 @@ export const site = {
   phoneHref: "tel:+38970123456",
   email: "hello@themountainescape.mk",
   emailHref: "mailto:hello@themountainescape.mk",
-  city: { mk: "Скопје, Северна Македонија", en: "Skopje, North Macedonia" } as Localized,
+  city: { mk: "Скопје, Македонија", en: "Skopje, North Macedonia" } as Localized,
   address: {
     mk: "ул. Македонија 12, 1000 Скопје",
     en: "Makedonija St. 12, 1000 Skopje",
