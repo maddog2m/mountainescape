@@ -332,7 +332,7 @@ export const dict = {
   "privacy.updated": { mk: "Последно ажурирано: 1 јануари 2026", en: "Last updated: 1 January 2026" },
 
   "cookies.text": {
-    mk: "Користиме колачиња за да го подобриме твоето прелистување.",
+    mk: " Kористиме колачиња за подобрување на вашето корисничко искуство.",
     en: "We use cookies to improve your browsing experience.",
   },
   "cookies.acceptAll": { mk: "Прифати сите", en: "Accept All" },
