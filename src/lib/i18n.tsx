@@ -156,7 +156,7 @@ export const dict = {
   },
   "about.vision.title": { mk: "Визија", en: "Vision" },
   "about.vision.text": {
-    mk: "Да станеме најдоверливата планинарска заедница во Северна Македонија — место каде секој почетник ќе најде водич, а секој искусен планинар ново предизвикувачко искачување.",
+    mk: "Да станеме најдоверливата планинарска заедница во Македонија — место каде секој почетник ќе најде водич, а секој искусен планинар ново предизвикувачко искачување.",
     en: "To become the most trusted hiking community in North Macedonia — a place where every beginner finds a guide and every experienced hiker finds a new challenge.",
   },
   "about.timeline.title": { mk: "Патот досега", en: "Our journey so far" },
@@ -168,7 +168,7 @@ export const dict = {
   },
   "about.eco.title": { mk: "Одговорност кон природата", en: "Environmental responsibility" },
   "about.eco.text": {
-    mk: "Работиме по принципот „Не оставај следа“. Секоја година организираме најмалку четири акции за чистење на планински патеки и соработуваме со националните паркови.",
+    mk: "Работиме по принципот „Не оставај позади себе“. Секоја година организираме најмалку четири акции за чистење на планински патеки и соработуваме со националните паркови.",
     en: "We follow the Leave No Trace principle. Every year we organize at least four trail clean-up actions and cooperate with the national parks.",
   },
   "about.philosophy.title": { mk: "Наша планинарска филозофија", en: "Our hiking philosophy" },

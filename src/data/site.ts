@@ -29,7 +29,7 @@ export const timeline: { year: string; text: Localized }[] = [
   {
     year: "2018",
     text: {
-      mk: "Основана е заедницата The Mountain Escape од група пријатели од Скопје.",
+      mk: "Основана е заедницата Mountain Escape од група пријатели од Скопје.",
       en: "The Mountain Escape community was founded by a group of friends from Skopje.",
     },
   },
@@ -50,14 +50,14 @@ export const timeline: { year: string; text: Localized }[] = [
   {
     year: "2023",
     text: {
-      mk: "Ја проширивме програмата на планинарења во цела Северна Македонија.",
+      mk: "Ја проширивме програмата на планинарења во цела Македонија.",
       en: "We expanded our tours across the whole of North Macedonia.",
     },
   },
   {
     year: "2025",
     text: {
-      mk: "Воведовме напредни вишински експедиции, меѓу кои и Кораб и Солунска Глава.",
+      mk: "Воведовме напредни висински експедиции, меѓу кои и Кораб и Солунска Глава.",
       en: "We introduced advanced mountain expeditions, including Korab and Solunska Glava.",
     },
   },
@@ -75,7 +75,7 @@ export const values: { icon: string; title: Localized; text: Localized }[] = [
     icon: "compass",
     title: { mk: "Авантура", en: "Adventure" },
     text: {
-      mk: "Верувајме дека секој има право на своја авантура — без разлика на возраст и кондиција.",
+      mk: "Веруваме дека секој има право на своја авантура — без разлика на возраст и кондиција.",
       en: "We believe everyone deserves their own adventure — regardless of age or fitness.",
     },
   },
