@@ -12,4 +12,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Pin a standalone Node.js server bundle for self-hosted (RepoRun/Docker) deploys.
+  // Inside a Lovable build the Cloudflare preset and its output layout still win,
+  // so the Lovable preview and publish flow are unaffected.
+  nitro: {
+    preset: "node-server",
+  },
 });
