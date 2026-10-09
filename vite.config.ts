@@ -12,10 +12,11 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  // Pin a standalone Node.js server bundle for self-hosted (RepoRun/Docker) deploys.
-  // Inside a Lovable build the Cloudflare preset and its output layout still win,
-  // so the Lovable preview and publish flow are unaffected.
+  // Deployment target:
+  // - Vercel sets VERCEL=1 during builds -> "vercel" preset (Build Output API in .vercel/output).
+  // - Otherwise NITRO_PRESET (Dockerfile sets node-server) or default "node-server" for RepoRun.
+  // Inside a Lovable build the Cloudflare preset still wins, so preview/publish are unaffected.
   nitro: {
-    preset: "node-server",
+    preset: process.env.VERCEL ? "vercel" : process.env.NITRO_PRESET || "node-server",
   },
 });
